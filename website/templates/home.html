@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        #homeButton {
+            width:  450px; 
+            height: 80px; 
+            position: absolute; 
+            top: 0px; 
+            left: 0px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #homeButton:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #journalButton {
+            width:  450px; 
+            height: 80px; 
+            position: absolute; 
+            top: 0px; 
+            left: 480px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #journalButton:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #healthButton {
+            width:  400px; 
+            height: 80px; 
+            position: absolute; 
+            top: 0px; 
+            left: 1100px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #healthButton:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button1 {
+            width:  135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 270px; 
+            left: 972px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button1:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button2 {
+            width:  135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 270px; 
+            left: 1107px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button2:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button3 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 270px; 
+            left: 1242px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button3:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button4 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 270px; 
+            left: 1377px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button4:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button5 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 340px; 
+            left: 567px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button5:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button6 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 340px; 
+            left: 702px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button6:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button7 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 340px; 
+            left: 837px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button7:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button8 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 340px; 
+            left: 972px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button8:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button9 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 340px; 
+            left: 1107px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button9:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button10 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 340px; 
+            left: 1242px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button10:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button11 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 340px; 
+            left: 1377px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button11:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button12 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 410px; 
+            left: 567px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button12:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button13 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 410px; 
+            left: 702px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button13:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button14 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 410px; 
+            left: 837px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button14:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button15 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 410px; 
+            left: 972px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button15:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button16 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 410px; 
+            left: 1107px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button16:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button17 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 410px; 
+            left: 1242px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button17:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button18 {
+            width: 135px; 
+            height: 70px; 
+            position: absolute; 
+            top: 410px; 
+            left: 1377px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button18:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button19 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 480px; 
+            left: 567px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button19:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button20 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 480px; 
+            left: 702px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button20:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button21 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 480px; 
+            left: 837px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button21:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button22 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 480px; 
+            left: 972px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button22:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button23 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 480px; 
+            left: 1107px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button23:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button24 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 480px; 
+            left: 1242px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button24:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button25 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 480px; 
+            left: 1377px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button25:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button26 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 540px; 
+            left: 567px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button26:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button27 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 540px; 
+            left: 702px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button27:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button28 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 540px; 
+            left: 837px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button28:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button29 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 540px; 
+            left: 972px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button29:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button30 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 540px; 
+            left: 1107px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button30:hover{
+            border-color: black; 
+        }
+    </style>
+    <style>
+        #Button31 {
+            width: 135px; 
+            height: 60px; 
+            position: absolute; 
+            top: 540px; 
+            left: 1242px;
+            background-color: transparent;
+            border: 2px solid transparent; 
+            color: black; 
+            padding: 5px 10px; 
+            transition: border-color 0.5s;
+        }
+        #Button31:hover{
+            border-color: black; 
+        }
+    </style>
+
+
+</head>
+<body>
+    <style>
+        body {
+          background-image: url('homePage.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+    </style>
+    <button id = "homeButton" onclick="window.location.href = 'home.html'"></button>
+    <button id = "journalButton" onclick="window.location.href = 'journal.html'"></button> 
+    <button id = "healthButton" onclick="window.location.href = 'health.html'"></button> 
+    <button id = "Button1" onclick="window.location.href = 'march1Journal.html'"></button>
+    <button id = "Button2" onclick="window.location.href = 'march2Journal.html'"></button>
+    <button id = "Button3" onclick="window.location.href = 'march3Journal.html'"></button>
+    <button id = "Button4" onclick="window.location.href = 'march4Journal.html'"></button>
+    <button id = "Button5" onclick="window.location.href = 'march5Journal.html'"></button>
+    <button id = "Button6" onclick="window.location.href = 'march6Journal.html'"></button>
+    <button id = "Button7" onclick="window.location.href = 'march7Journal.html'"></button>
+    <button id = "Button8" onclick="window.location.href = 'march8Journal.html'"></button>
+    <button id = "Button9" onclick="window.location.href = 'march9Journal.html'"></button>
+    <button id = "Button10" onclick="window.location.href = 'march10Journal.html'"></button>
+    <button id = "Button11" onclick="window.location.href = 'march11Journal.html'"></button>
+    <button id = "Button12" onclick="window.location.href = 'march12Journal.html'"></button>
+    <button id = "Button13" onclick="window.location.href = 'march13Journal.html'"></button>
+    <button id = "Button14" onclick="window.location.href = 'march14Journal.html'"></button>
+    <button id = "Button15" onclick="window.location.href = 'march15Journal.html'"></button>
+    <button id = "Button16" onclick="window.location.href = 'march16Journal.html'"></button>
+    <button id = "Button17" onclick="window.location.href = 'march17Journal.html'"></button>
+    <button id = "Button18" onclick="window.location.href = 'march18Journal.html'"></button>
+    <button id = "Button19" onclick="window.location.href = 'march19Journal.html'"></button>
+    <button id = "Button20" onclick="window.location.href = 'march20Journal.html'"></button>
+    <button id = "Button21" onclick="window.location.href = 'march21Journal.html'"></button>
+    <button id = "Button22" onclick="window.location.href = 'march22Journal.html'"></button>
+    <button id = "Button23" onclick="window.location.href = 'march23Journal.html'"></button>
+    <button id = "Button24" onclick="window.location.href = 'march24Journal.html'"></button>
+    <button id = "Button25" onclick="window.location.href = 'march25Journal.html'"></button>
+    <button id = "Button26" onclick="window.location.href = 'march26Journal.html'"></button>
+    <button id = "Button27" onclick="window.location.href = 'march27Journal.html'"></button>
+    <button id = "Button28" onclick="window.location.href = 'march28Journal.html'"></button>
+    <button id = "Button29" onclick="window.location.href = 'march29Journal.html'"></button>
+    <button id = "Button30" onclick="window.location.href = 'march30Journal.html'"></button>
+    <button id = "Button31" onclick="window.location.href = 'march31Journal.html'"></button>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.pastel-purple-button {
+    background-color: #b19cd9;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }

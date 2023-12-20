@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Journal Page</title>
+    <link rel="stylesheet" href="journal.css">
+    <style>
+        #myTextBox {
+          font-family: Arial;
+          font-size: 16px;
+          width: 1100px;
+          height: 150px;
+          resize: none;
+          border: 1px solid black;
+          position: absolute; 
+          top: 200px; 
+          left: 145px;
+          border: 2px solid transparent; 
+          color: black; 
+          padding: 5px 10px; 
+          transition: border-color 0.5s;
+        }
+        </style>
+</head>
+<body>
+    <p>
+        <div style="text-align:left;">
+            <button class="pastel-purple-button" onclick="window.location.href = 'home.html'">Home</button>
+        </div>
+    </p>
+    <style>
+        body {
+          background-image: url('journal.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+    </style>
+    <textarea id="myTextBox" rows="4" cols="50" placeholder="Type your text here..."></textarea>
+</body>
+</html>

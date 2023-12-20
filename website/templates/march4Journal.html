@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>March 4 Journal Page</title>
+    <style>
+      .button {
+        display: inline-block;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        position: absolute; 
+        top: 365px; 
+        left: 385px;
+      }
+      .button:hover {
+        background-color: navy;
+        transform: scale(1.1);
+      }
+    </style>
+
+    <style>
+        .buttonYellow {
+        display: inline-block;
+        border-radius: 50%;
+        background-color: yellow;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        position: absolute; 
+        top: 365px; 
+        left: 535px;
+      }
+      .button:hover {
+        background-color: navy;
+        transform: scale(1.1);
+      }
+    </style>
+
+<style>
+    .buttonGreen {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    position: absolute; 
+    top: 365px; 
+    left: 685px;
+  }
+  .button:hover {
+    background-color: navy;
+    transform: scale(1.1);
+  }
+</style>
+
+    <script>
+      function replaceRed() {
+        var button = document.getElementById("butRed");
+        button.innerHTML = "&#9733;"; // replace text with star symbol
+      }
+      function replaceGreen() {
+        var button = document.getElementById("butGreen");
+        button.innerHTML = "&#9733;"; // replace text with star symbol
+      }
+      function replaceYellow() {
+        var button = document.getElementById("butYel");
+        button.innerHTML = "&#9733;"; // replace text with star symbol
+      }
+    </script>
+
+  </head>
+  <body>
+    <div class="button" id="butRed" onclick="replaceRed()"></div>
+    <div class="buttonYellow" id="butYel" onclick="replaceYellow()"></div>
+    <div class="buttonGreen" id="butGreen" onclick="replaceGreen()"></div>
+    <style>
+        body {
+          background-image: url('4.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+    </style>
+  </body>
+</html>
